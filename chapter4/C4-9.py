@@ -5,6 +5,13 @@ Created on Fri Nov  1 12:01:09 2019
 @author: siddhartha
 """
 
+''''
+Problem statement:
+    
+Write a short recursive Python function that finds the minimum and maximum
+values in a sequence without using any loops.
+'''
+
 #find minimum in list recursively
 
 def findMinNumber(l):
