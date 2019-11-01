@@ -2,8 +2,10 @@
 """
 Created on Fri Nov  1 12:01:09 2019
 
-@author: pcs
+@author: siddhartha
 """
+
+#find minimum in list recursively
 
 def findMinNumber(l):
     
@@ -21,7 +23,8 @@ def findMinNumber(l):
             minimum = minNumber
             
         return minimum
-            
+    
+#find maximum in list recursively     
 def findMaxNumber(l):
     
     if len(l)==0:
@@ -37,7 +40,8 @@ def findMaxNumber(l):
             maximum = maxNumber
         return maximum
     
-    
+#test the functions by passing test data
+        
 listA = [9,-2,6,1,80,9,-2]   
 
 print(findMinNumber(listA))
